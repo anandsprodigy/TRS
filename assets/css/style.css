@@ -1352,6 +1352,10 @@ section {
     background-color: #f2f5fa;
 }
 
+#social{
+    background-color: #f2f5fa;
+}
+
 @media (max-width: 768px) {
   #footer .copyright, #footer .credits {
     float: none;
