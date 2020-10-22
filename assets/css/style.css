@@ -1356,6 +1356,13 @@ section {
     background-color: #f2f5fa;
 }
 
+.bx{
+  color: #5777ba;
+}
+
+
+
+
 @media (max-width: 768px) {
   #footer .copyright, #footer .credits {
     float: none;
