@@ -1249,6 +1249,8 @@ section {
 #tileNav{
   height: 80vh;
   background-color: #f2f5fa;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .lightbg{
