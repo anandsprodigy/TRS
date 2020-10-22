@@ -1377,10 +1377,19 @@ section {
 
 
 .btn-sq {
-  width: 300px !important;
+  width: 350px !important;
   height: 100px !important;
       font-size: 20px;
     border-radius: 10px;
+}
+
+.img{
+  min-height: 350px;
+  min-width: 350px;
+}
+
+#process{
+  background-color: url('./../img/process/processMobile.svg');
 }
 
 @media (max-width: 768px) {
