@@ -1388,6 +1388,11 @@ section {
   min-width: 350px;
 }
 
+.img2{
+  min-height: 500px;
+  min-width: 500px;
+}
+
 #process{
   background-color: url('./../img/process/processMobile.svg');
 }
