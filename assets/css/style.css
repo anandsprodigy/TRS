@@ -1247,9 +1247,8 @@ section {
 /* Custom CSS */
 
 #tileNav{
-  height: 70vh;
+  height: 80vh;
   background-color: #f2f5fa;
-  padding:0px;
 }
 
 .lightbg{
