@@ -1247,7 +1247,7 @@ section {
 /* Custom CSS */
 
 #tileNav{
-  height: 50vh;
+  height: 70vh;
   background-color: #f2f5fa;
   padding:0px;
 }
@@ -1360,7 +1360,9 @@ section {
   color: #5777ba;
 }
 
-
+.btn-custom{
+  background-color: #5777ba;
+}
 
 
 @media (max-width: 768px) {
