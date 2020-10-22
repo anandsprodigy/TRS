@@ -1252,9 +1252,14 @@ section {
   padding:0px;
 }
 
+.lightbg{
+  background-color: #f2f5fa;
+}
+
 .metro{
   background-color: #FFF;5777ba
   box-model: border-box;
+  margin: 30px;
   cursor: pointer;
   height: 160px;
   border: 3px solid transparent;
@@ -1352,9 +1357,6 @@ section {
     background-color: #f2f5fa;
 }
 
-#social{
-    background-color: #f2f5fa;
-}
 
 .bx{
   color: #5777ba;
@@ -1369,8 +1371,17 @@ section {
     font-size: 20px;
     border-radius: 10px;
     width:60%;
+    height: 400px;
 }
 
+
+
+.btn-sq {
+  width: 300px !important;
+  height: 100px !important;
+      font-size: 20px;
+    border-radius: 10px;
+}
 
 @media (max-width: 768px) {
   #footer .copyright, #footer .credits {
