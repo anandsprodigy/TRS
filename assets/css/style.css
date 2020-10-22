@@ -1364,6 +1364,13 @@ section {
   background-color: #5777ba;
 }
 
+.btn-xl {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width:60%;
+}
+
 
 @media (max-width: 768px) {
   #footer .copyright, #footer .credits {
