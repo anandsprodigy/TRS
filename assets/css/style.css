@@ -1247,13 +1247,13 @@ section {
 /* Custom CSS */
 
 #tileNav{
-  height: 40vh;
+  height: 50vh;
   background-color: #f2f5fa;
   padding:0px;
 }
 
 .metro{
-  background-color: #5777ba;
+  background-color: #FFF;5777ba
   box-model: border-box;
   cursor: pointer;
   height: 160px;
