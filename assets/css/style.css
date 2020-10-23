@@ -1422,9 +1422,11 @@ section {
     background: #5777ba;
 }
 
-.overlay {
-    display: table-cell;
-    vertical-align: middle;
+.bottom-text {
+  position: absolute;
+  bottom: 80px;
+  left: auto;
+  right: auto;
 }
 
 
