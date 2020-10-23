@@ -1430,12 +1430,6 @@ section {
 }
 
 
-.bottom-center {
-  text-align: center;
-}
-
-
-
 
 @media (max-width: 768px) {
   #footer .copyright, #footer .credits {
