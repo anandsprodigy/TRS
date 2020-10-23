@@ -1373,9 +1373,9 @@ section {
 .btn-xl {
     padding: 10px 20px;
     font-size: 20px;
-    border-radius: 10px;
     width:60%;
     height: 400px;
+    border-radius: 50%;
 }
 
 
@@ -1400,6 +1400,31 @@ section {
 #process{
   background-color: url('./../img/process/processMobile.svg');
 }
+
+
+
+.round-button {
+  background: #5777ba;
+  text-align: center;
+  width: 149px;
+  height: 149px;
+  border-radius: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none
+}
+.round-button:hover {
+    background: #777555;
+}
+
+
+
+
 
 @media (max-width: 768px) {
   #footer .copyright, #footer .credits {
