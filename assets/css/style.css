@@ -1422,6 +1422,11 @@ section {
     background: #5777ba;
 }
 
+.overlay {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 
 
 
