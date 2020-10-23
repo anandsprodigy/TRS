@@ -1406,8 +1406,8 @@ section {
 .round-button {
   background: #5777ba;
   text-align: center;
-  width: 149px;
-  height: 149px;
+  width: 170px;
+  height: 170px;
   border-radius: 100%;
   display: inline-flex;
   flex-direction: column;
@@ -1416,6 +1416,7 @@ section {
   font-size: 35px;
   color: white;
   font-weight: bold;
+  padding: 5px;
   text-decoration: none
 }
 .round-button:hover {
