@@ -11,6 +11,9 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #585a61;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -1247,8 +1250,8 @@ section {
 /* Custom CSS */
 
 #tileNav{
-  height: 80vh;
-  background-color: #f2f5fa;
+  /* height: 60vh; */
+  /* background-color: #f2f5fa; */
   padding-top: 0px;
   padding-bottom: 0px;
 }
