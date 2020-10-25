@@ -1430,7 +1430,9 @@ section {
   right: auto;
 }
 
-
+.btn-round-lg{
+border-radius: 22.5px;
+}
 
 @media (max-width: 768px) {
   #footer .copyright, #footer .credits {
