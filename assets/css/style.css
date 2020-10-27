@@ -1434,6 +1434,14 @@ section {
 border-radius: 22.5px;
 }
 
+#header .logo img {
+    padding: 6px 0;
+    margin: 0;
+    max-height: 70px;
+    max-width: 300px;
+}
+
+
 @media (max-width: 768px) {
   #footer .copyright, #footer .credits {
     float: none;
