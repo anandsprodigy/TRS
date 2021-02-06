@@ -1460,3 +1460,11 @@ border-radius: 22.5px;
     padding: 5px 0;
   }
 }
+
+
+/* Custom builder0 */
+
+.contactContainer{
+  display: block;
+  margin: auto;
+}
