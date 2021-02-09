@@ -33,69 +33,70 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <title>The Ripper Systems</title>
     <script>
-        $(document).ready(function(){
-			// $(window).scroll(function(){
-			//     $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
-			// });
+    $(document).ready(function() {
+        // $(window).scroll(function(){
+        //     $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+        // });
 
 
-				// Owl Carousal
-			    $("#owl-demo").owlCarousel({
-			      itemsCustom : [
-			        [0, 1],
-			        [450, 1],
-			        [600, 2],
-			        [700, 2],
-			        [1000, 3],
-			        [1200, 3],
-			        [1400, 3],
-			        [1600, 3]
-			      ],
-			      navigation : true
-			    });
+        // Owl Carousal
+        $("#owl-demo").owlCarousel({
+            itemsCustom: [
+                [0, 1],
+                [450, 1],
+                [600, 2],
+                [700, 2],
+                [1000, 3],
+                [1200, 3],
+                [1400, 3],
+                [1600, 3]
+            ],
+            navigation: true
+        });
 
-			    // Counter UP
-			    $('.counter').counterUp({
-				    delay: 10,
-				    time: 1000
-				});
+        // Counter UP
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
 
-		});
-
-	</script>
+    });
+    </script>
     <style>
-        @media screen and (max-width: 550px) {
-  			.responsiveImg {
-    			content:url("assets/img/process/processMobile1.svg");
-    			width: 90%;
-  			}
+    @media screen and (max-width: 550px) {
+        .responsiveImg {
+            content: url("assets/img/process/processMobile1.svg");
+            width: 90%;
+        }
 
-  			.sm_hide{
-  				display: none;
-  			}
+        .sm_hide {
+            display: none;
+        }
 
-  			.bottom-text {
-			  left: 10px;
-			}
-		}
+        .bottom-text {
+            left: 10px;
+        }
+    }
 
-		@media screen and (min-width: 555px) {
-		  .responsiveImg {
-		    content:url("assets/img/process/processWebsite.svg");
-		  }
-		}
+    @media screen and (min-width: 555px) {
+        .responsiveImg {
+            content: url("assets/img/process/processWebsite.svg");
+        }
+    }
 
 
-		#tileNav{
-			background-image: url("assets/img/mark-cruz-VW2oU66mwbc-unsplash.jpg");
-			/*background-color: #cccccc; /* Used if the image is unavailable */
-			/*height: 500px; /* You must set a specified height */
-			background-position: center; /* Center the image */
-			background-repeat: no-repeat; /* Do not repeat the image */
-			background-size: cover; /* Resize the background image to cover the entire container */
-		} 
-
-	</style>
+    #tileNav {
+        background-image: url("assets/img/mark-cruz-VW2oU66mwbc-unsplash.jpg");
+        /*background-color: #cccccc; /* Used if the image is unavailable */
+        /*height: 500px; /* You must set a specified height */
+        background-position: center;
+        /* Center the image */
+        background-repeat: no-repeat;
+        /* Do not repeat the image */
+        background-size: cover;
+        /* Resize the background image to cover the entire container */
+    }
+    </style>
 </head>
 
 <body>
@@ -566,79 +567,54 @@
         </div>
   	</div> -->
     </section>
-
-
-
-
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Pricing</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+    <section id="pricing" class="pricing lightbg">
+        <div class="container">
+            <div class="section-title">
+                <h2>Pricing</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-4 box" data-aos="fade-right">
+                    <h3>Terminator</h3>
+                    <h4><img src="assets/img/scientific.svg" width="100px"></h4>
+                    <ul>
+                        <li><i class="bx bx-check"></i> Precision Performance</li>
+                        <li><i class="bx bx-check"></i> Flexible configurations</li>
+                        <li><i class="bx bx-check"></i> Tame the Most Taxing Programs</li>
+                        <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
+                        <li class="na"><i class="bx bx-x"></i> <span>Best suited AI Training, Deep Learning, Data Science, HPC</span></li>
+                    </ul>
+                    <a href="#" class="get-started-btn">Get Started</a>
+                </div>
+                <div class="col-lg-4 box featured" data-aos="fade-up">
+                    <h3>Dominator</h3>
+                    <h4><img src="assets/img/joystick.svg" width="100px"></h4>
+                    <ul>
+                        <li><i class="bx bx-check"></i> Game for Work or Game for Play</li>
+                        <li><i class="bx bx-check"></i> Flexible configurations</li>
+                        <li><i class="bx bx-check"></i> Cost-effective operations</li>
+                        <li><i class="bx bx-check"></i> Render Scenes in Living Detail/li>
+                        <li><i class="bx bx-check"></i> Best suited for creative designers</li>
+                    </ul>
+                    <a href="#" class="get-started-btn">Get Started</a>
+                </div>
+                <div class="col-lg-4 box" data-aos="fade-left">
+                    <h3>Simpleton</h3>
+                    <h4><img src="assets/img/computer.svg" width="100px"></h4>
+                    <ul>
+                        <li><i class="bx bx-check"></i> Value for money build</li>
+                        <li><i class="bx bx-check"></i> Flexible configurations</li>
+                        <li><i class="bx bx-check"></i> Cost-effective operations</li>
+                        <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
+                        <li><i class="bx bx-check"></i> Best suited for day today office work</li>
+                    </ul>
+                    <a href="#" class="get-started-btn">Get Started</a>
+                </div>
+            </div>
         </div>
-
-        <div class="row no-gutters">
-
-          <div class="col-lg-4 box" data-aos="fade-right">
-            <h3>Terminator</h3>
-            <h4><img src="assets/img/scientific.svg" width="100px"></h4>
-            <ul>
-              <li><i class="bx bx-check"></i> Precision Performance</li>
-              <li><i class="bx bx-check"></i> Flexible configurations</li>
-              <li><i class="bx bx-check"></i> Tame the Most Taxing Programs</li>
-              <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
-              <li class="na"><i class="bx bx-x"></i> <span>Best suited AI Training, Deep Learning, Data Science, HPC</span></li>
-            </ul>
-            <a href="#" class="get-started-btn">Get Started</a>
-          </div>
-
-          <div class="col-lg-4 box featured" data-aos="fade-up">
-            <h3>Dominator</h3>
-            <h4><img src="assets/img/joystick.svg" width="100px"></h4>
-            <ul>
-              <li><i class="bx bx-check"></i> Game for Work or Game for Play</li>
-              <li><i class="bx bx-check"></i> Flexible configurations</li>
-              <li><i class="bx bx-check"></i> Cost-effective operations</li>
-              <li><i class="bx bx-check"></i> Render Scenes in Living Detail/li>
-              <li><i class="bx bx-check"></i> Best suited for creative designers</li>
-            </ul>
-            <a href="#" class="get-started-btn">Get Started</a>
-          </div>
-
-          <div class="col-lg-4 box" data-aos="fade-left">
-            <h3>Simpleton</h3>
-            <h4><img src="assets/img/computer.svg" width="100px"></h4>
-            <ul>
-              <li><i class="bx bx-check"></i> Value for money build</li>
-              <li><i class="bx bx-check"></i> Flexible configurations</li>
-              <li><i class="bx bx-check"></i> Cost-effective operations</li>
-              <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-              <li><i class="bx bx-check"></i> Best suited for day today office work</li>
-            </ul>
-            <a href="#" class="get-started-btn">Get Started</a>
-          </div>
-
-        </div>
-
-      </div>
     </section><!-- End Pricing Section -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <section id="social" class="lightbg">
+    <section id="social">
         <div class="section-title py-2">
             <h2>Keep In Touch</h2>
         </div>
@@ -672,86 +648,53 @@
   					<p>We are always committed to delivering great after sales support and maintenance. We are just one step away for a call or chat.</p>
   				</div>
   			</div>
- -->
-    <!-- Footer -->
-    <footer class="page-footer font-small blue">
-        <!-- Footer Links -->
-        <div class="container text-center text-md-left">
-            <!-- Footer links -->
-            <div class="row text-center text-md-left mt-3 pb-3">
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <div class="">
-                        <!-- <h1 class="text-light"><a href="index.html">Ripper Systems</a></h1> -->
-                        <!-- Uncomment below if you prefer to use an image logo -->
-                        <a class="navbar-brand" href="#">
-                            <img src="assets/img/brand-logo/Ripper_Systems1.svg" alt="Ripper" height="130px" width="300px" class="img-fluid">
-                        </a>
-                    </div>
-                    <!--         <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-          consectetur
-          adipisicing elit.</p> -->
-                </div>
-                <!-- Grid column -->
-                <hr class="w-100 clearfix d-md-none">
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
-                    <p>
-                        <a href="#!">Build Custom PC</a>
-                    </p>
-                    <p>
-                        <a href="#!">Prebild PC</a>
-                    </p>
-                    <p>
-                        <a href="#!">Home</a>
-                    </p>
-                </div>
-                <!-- Grid column -->
-                <hr class="w-100 clearfix d-md-none">
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
-                    <p>
-                        <a href="#!">Your Account</a>
-                    </p>
-                    <p>
-                        <a href="#!">Become an Affiliate</a>
-                    </p>
-                    <p>
-                        <a href="#!">Shipping Rates</a>
-                    </p>
-                    <p>
-                        <a href="#!">Legal</a>
-                    </p>
-                </div>
-                <!-- Grid column -->
-                <hr class="w-100 clearfix d-md-none">
-                <!-- Grid column -->
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                    <p>
-                        <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-                    <p>
-                        <i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
-                    <p>
-                        <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                    <p>
-                        <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-                </div>
-                <!-- Grid column -->
-            </div>
-            <!-- Footer links -->
-            <hr>
+  		-->
+    <section class="lightbg">
+        <div class="mb-3">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Build Custom PC</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">How We Work?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Support</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Terms & Conditions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Privacy Policy</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mb-3 d-flex justify-content-center">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/brand-logo/Ripper_Systems1.svg" alt="Ripper" height="90px" width="200px" class="img-fluid">
+            </a>
+        </div>
+        <div class="mb-3">
+            <ul class="nav justify-content-center">
+            </ul>
+        </div>
+        <div>
             <!-- Copyright -->
-            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <p class="text-center"><b>CORPORATE ADDRESS:</b> C-53, World Center Industrial Area Phase 2, Pune, 110020</p>
+            <p class="text-center">Made with <b><span style="color: #e25555;">&#9829;</span></b> in India</p>
+            <div class="footer-copyright text-center">© 2020 Copyright:
                 <a href="https://mdbootstrap.com/">TheRipperSystems.com</a>
             </div>
-            <!-- Copyright -->
-    </footer>
-    <!-- Footer -->
-    <section>
-        <p class="text-center">Made with <b><span style="color: #e25555;">&#9829;</span></b> in India</p>
+        </div>
     </section>
     <!-- Animation -->
     <script src="assets/vendor/aos/aos.js"></script>
