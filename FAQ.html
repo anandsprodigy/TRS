@@ -15,9 +15,7 @@
     <!-- JQuery and Bootstrap dependency -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
     <!-- Sweet Alert -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- Vendor CSS Files -->
@@ -40,6 +38,12 @@
         });
     };
     </script>
+    <style>
+        .accordion-button:not(.collapsed) {
+            color: #0c63e4;
+            background-color: #f2f5fa;
+        }
+    </style>
 </head>
 
 <body>
@@ -102,7 +106,6 @@
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     Yes, we do. We install Windows 10 Home edition 64-bit (trial version) on all Ripper PCs by default. All drivers including the latest display and chipset drivers are also installed. We are also a big no on bloatware and won't install any antivirus as we prefer the default Windows Defender antivirus as choice. If you want us to activate your copy of Windows 10 OS, that can also be done for extra price. The activation can also be done by you on your own if you prefer buying this separately.
-
                     If you have a requirement for Linux based OS, we do that too. Although we only provideUbuntu and Fedora OS installations at the moment. Contact us for further details.
                 </div>
             </div>
@@ -127,7 +130,7 @@
             </h2>
             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    We know your trust is an important factor and we Indians love Cash on Delivery. However, our current courier partners do not offer us this option of COD. Also, our process is based on build to order i.e. every Ripper PC that you buy is made to order and nothing is kept ready in stock. We place orders for the parts when we receive the payment. This way it helps both us and you. We commit that you will only be charged once we confirm the parts are available and you also don’t have to worry about us replacing any of the components with a similar one but from a different brand of your choice. 
+                    We know your trust is an important factor and we Indians love Cash on Delivery. However, our current courier partners do not offer us this option of COD. Also, our process is based on build to order i.e. every Ripper PC that you buy is made to order and nothing is kept ready in stock. We place orders for the parts when we receive the payment. This way it helps both us and you. We commit that you will only be charged once we confirm the parts are available and you also don’t have to worry about us replacing any of the components with a similar one but from a different brand of your choice.
                 </div>
             </div>
         </div>
@@ -151,7 +154,7 @@
             </h2>
             <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    You get full manufacturer warranty on all the parts used in your Ripper PC. The bill that we provide contains all the components used in your build with their Serial no.s for easy access. We also ship the original boxes of components with the build so that you can take this to the local service center for easy replacement and support. Each component has different warranty coverage from the manufacturer, this will be mentioned in the bill for easyreference. 
+                    You get full manufacturer warranty on all the parts used in your Ripper PC. The bill that we provide contains all the components used in your build with their Serial no.s for easy access. We also ship the original boxes of components with the build so that you can take this to the local service center for easy replacement and support. Each component has different warranty coverage from the manufacturer, this will be mentioned in the bill for easyreference.
                 </div>
             </div>
         </div>
@@ -187,20 +190,17 @@
             </h2>
             <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    Never. We do not use any second parts or components to build your Ripper PC. All components used are in mint condition and sealed. We also share images of the boxes with the serial no. with you before we start unboxing them so that you can verify this upon arrival yourself. 
+                    Never. We do not use any second parts or components to build your Ripper PC. All components used are in mint condition and sealed. We also share images of the boxes with the serial no. with you before we start unboxing them so that you can verify this upon arrival yourself.
                 </div>
             </div>
         </div>
     </div>
-
-
     <p class="text-center py-3">For any questions, issues or comments, please feel free to reach out to us at systems.ripper@gmail.com</p>
-
-        <section class="lightbg">
+    <section class="lightbg">
         <div class="mb-3">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="shop.html">Shop</a>
@@ -211,13 +211,13 @@
                 <li class="nav-item">
                     <a class="nav-link" href="process.html">How We Work?</a>
                 </li>
-<!--                 <li class="nav-item">
+                <!--                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact Us</a>
                 </li> -->
-<!--                 <li class="nav-item">
+                <!--                 <li class="nav-item">
                     <a class="nav-link" href="#">Support</a>
                 </li> -->
-<!--                 <li class="nav-item">
+                <!--                 <li class="nav-item">
                     <a class="nav-link" href="#">Terms & Conditions</a>
                 </li>
                 <li class="nav-item">
@@ -239,7 +239,6 @@
             </div>
         </div>
     </section>
-
 </body>
 
 </html>
