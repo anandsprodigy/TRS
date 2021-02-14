@@ -35,9 +35,26 @@
         height: auto;
     }
     </style>
+
+    <script type="text/javascript">
+    	$( document ).ready(function() {
+    		//alert("ss");
+    		var myModal = document.getElementById('exampleModal')
+			var myInput = document.getElementById('myInput')
+
+			myModal.addEventListener('shown.bs.modal', function () {
+			  myInput.focus()
+			})
+    	});
+    </script>
 </head>
 
 <body>
+
+
+
+
+
     <!-- ======= Header ======= -->
     <header id="header" class="header-transparent">
         <div class="container d-flex align-items-center">
@@ -118,7 +135,9 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col text-center">
+                                	<a href="checkout.html?sku=AMD-YFT-001">
                                     <button class="btn btn-primary">Buy Now</button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -178,7 +197,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col text-center">
-                                    <button class="btn btn-primary">Buy Now</button>
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Now</button>
                                 </div>
                             </div>
                         </div>
@@ -347,10 +366,31 @@
             <p class="text-center"><b>CORPORATE ADDRESS:</b> C-53, World Center Industrial Area Phase 2, Pune, 110020</p>
             <p class="text-center">Made with <b><span style="color: #e25555;">&#9829;</span></b> in India</p>
             <div class="footer-copyright text-center">© 2020 Copyright:
-                <a href="https://mdbootstrap.com/">TheRipperSystems.com</a>
+                <a href="">TheRipperSystems.com</a>
             </div>
         </div>
     </section>
+
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 
